@@ -10,7 +10,10 @@
     <remote
         name="github"
         fetch="https://github.com" />
-
+	<remote  name="ccwav"
+       fetch="https://github.com/ccwav"
+       revision="main"
+       review="" />
     <!--
     default: 默认配置
     remote: 默认使用的远程仓库
@@ -21,4 +24,7 @@
         remote="github"
         revision="main"
         sync-j="1" />
+	<project name="QLScript2" path=".." groups="jd" remote="ccwav">
+		<linkfile src="jdCookie.js" dest="jdCookie.js"></linkfile>
+	</project>
 </manifest>
