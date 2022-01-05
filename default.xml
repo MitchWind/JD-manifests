@@ -28,6 +28,8 @@
         remote="github"
         revision="main"
         sync-j="1" />
-	<project name="JD_tencent_scf" path=" . " groups="jd" remote="zero205"/>
-	<project name="QLScript2" path=" . " groups="jd" remote="ccwav"/>	
+	<project name="JD_tencent_scf" path="dest/JD_tencent_scf" groups="jd" remote="zero205">
+		<copyfile  src="jdCookie.js" dest="../../jdCookie.js"></copyfile >
+	</project>
+	<project name="QLScript2" path="dest/QLScript2" groups="jd" remote="ccwav"/>	
 </manifest>
