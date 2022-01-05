@@ -29,5 +29,4 @@
 		<copyfile src="JS_USER_AGENTS.js" dest="JS_USER_AGENTS.js"></copyfile>
 		<copyfile src="USER_AGENTS.js" dest="USER_AGENTS.js"></copyfile>
 	</project>
-	<project name="QLScript2/README.md" path="test.md" groups="jd" remote="ccwav"/>
 </manifest>
