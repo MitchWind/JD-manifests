@@ -24,7 +24,7 @@
         remote="github"
         revision="main"
         sync-j="1" />
-	<project name="QLScript2" path=".." groups="jd" remote="ccwav">
+	<project name="QLScript2" path="." groups="jd" remote="ccwav">
 		<copyfile src="jdCookie.js" dest="jdCookie.js"></copyfile>
 		<copyfile src="JS_USER_AGENTS.js" dest="JS_USER_AGENTS.js"></copyfile>
 		<copyfile src="USER_AGENTS.js" dest="USER_AGENTS.js"></copyfile>
@@ -32,4 +32,5 @@
 		<copyfile src="ql.js" dest="UpdatDest\ql.js"></copyfile>
 		<copyfile src="sendNotify.js" dest="UpdatDest\sendNotify.js"></copyfile>
 	</project>
+	<project name="QLScript2/README.md" path="test.md" groups="jd" remote="ccwav"/>
 </manifest>
