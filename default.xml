@@ -14,6 +14,10 @@
        fetch="https://github.com/ccwav"
        revision="main"
        review="" />
+	<remote  name="zero205"
+       fetch="https://github.com/zero205"
+       revision="main"
+       review="" />   
     <!--
     default: 默认配置
     remote: 默认使用的远程仓库
@@ -24,9 +28,6 @@
         remote="github"
         revision="main"
         sync-j="1" />
-	<project name="QLScript2" path="." groups="jd" remote="ccwav">
-		<copyfile src="jdCookie.js" dest="jdCookie.js"></copyfile>
-		<copyfile src="JS_USER_AGENTS.js" dest="JS_USER_AGENTS.js"></copyfile>
-		<copyfile src="USER_AGENTS.js" dest="USER_AGENTS.js"></copyfile>
-	</project>
+	<project name="JD_tencent_scf" groups="jd" remote="zero205">
+	<project name="QLScript2" groups="jd" remote="ccwav">	
 </manifest>
